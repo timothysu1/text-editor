@@ -24,11 +24,11 @@ module.exports = () => {
       }),
       new InjectManifest(),
       new WebpackPwaManifest({
-        name: 'JATE',
+        name: 'Just Another Text Editor',
         short_name: 'JATE',
         description: 'Text editor',
-        background_color: '#3e3e42',
-        theme_color: '3e3e42',
+        background_color: '#225ca3',
+        theme_color: '#225ca3',
         start_url: './',
         publicPath: './',
         icons: [

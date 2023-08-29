@@ -5,7 +5,6 @@ const butInstall = document.getElementById('buttonInstall');
 window.addEventListener('beforeinstallprompt', (event) => {
   window.deferredPrompt = event;
   //event.preventDefault();
-  butInstall.style.visibility = 'visible';
   butInstall.classList.toggle('hidden', false);
 });
 
